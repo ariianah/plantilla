@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#imagen1 {
+    opacity: 0.7;
+
+
+}
+
+.contenedor1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.contenedor2 {
+    display: inline-block;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor2 h1 {
+
+    justify-content: center;
+    font-size: 90px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.contenedor2 h3 {
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.contenedor3 ul {
+    margin-top: 50px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.contenedor3 ul li {
+
+    font-size: 25px;
+    font-family: monospace;
+    list-style: none;
+    border-bottom: 2px solid;
+}
+
+.contenedor4 {
+    width: 520px;
+    margin-left: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contenedor4 img {
+    border: 1px solid lightblue;
+    margin: 25px;
+}
+
+.contacto {
+    background: rgb(170, 189, 102);
+    background: radial-gradient(circle, rgba(170, 189, 102, 1) 62%, rgba(188, 199, 114, 0.8365721288515406) 76%);
+    padding: 70px 30px 60px 40px;
+    display: flex;
+    font-size: 25px;
+    margin: 3px 8px 10px 850px;
+    position: absolute;
+    top: 660px;
+}
+
+.contacto h2 {
+    position: absolute;
+    top: 3px;
+    left: 80px;
+    font-family: cursive;
+    border-bottom: 2px solid lightgray;
+
+}
+
+footer {
+    border-top: 2px lightslategrey;
+    height: 200px;
+    background-position: center bottom;
+    background: lightgoldenrodyellow;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background-size: 100% 100%;
+    
+}
+
+.seccion1 .seccion3 .seccion2 {
+    position: absolute;
+}
+.seccion1{
+    color: gray;
+    font-size: 20px;  
+}
+.seccion1 ul li{
+    list-style: none;
+    margin: 15px;
+    position: relative;
+    top: 40px;
+}
+.seccion1 ul li:hover{
+    color: black;
+
+}
+.seccion2{
+    color: gray;
+    font-size: 18px;
+    position: relative;
+    top: 60px;
+  
+}
+.seccion3{
+    position: relative;
+    top: 50px;
+
+}
+.seccion3 img{
+    margin: 15px;
+
+}
+.seccion3 img:hover{
+    opacity: 0.5;
+}

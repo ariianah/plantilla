@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Proyecto Web</title>
+</head>
+
+<body>
+    <header class="contenedor1">
+
+        <img src="imagenes/img1.1.jpg" id="imagen1" width="100%" height="20%">
+        <div class="contenedor2">
+            <h1>Trabajando en Equipo</h1>
+            <h3>La mejor forma de trabajar y obtener mejores resultados es en EQUIPO. </h3>
+        </div>
+    </header>
+
+    <div class="contenedor3">
+        <ul>
+            <li>Contactanos</li>
+            <li>Nosotros</li>
+            <li>Galeria</li>
+        </ul>
+    </div>
+
+    <section>
+        <div class="contenedor4">
+            <img src="imagenes/img2.jpg" id="img1" height="180px" width="180px">
+            <img src="imagenes/img3.jpg" id="img2" height="180px" width="180px">
+            <img src="imagenes/img4.webp" id="img3" height="180px" width="180px">
+            <img src="imagenes/img5.jpg" id="img4" height="180px" width="180px">
+            <img src="imagenes/img6.jpg" id="img5" height="180px" width="180px">
+            <img src="imagenes/img1.jpg" id="img6" height="180px" width="180px">
+        </div>
+    </section>
+
+    <aside class="contacto">
+        <h2>Contactanos</h2>
+        <form action="" class="formulario">
+            <!-- grupo: nombre -->
+            <div class="formulario__nombre">
+                <label for="nombre" class="formulario__label">Nombre y Apellido</label>
+                <div class="formulario__ingreso__name__input">
+                    <input type="text" class="formulario__input" name="name" id="nombre"
+                        placeholder="Nombre y Apellido">
+                </div>
+            </div>
+            <!--grupo: correo -->
+            <div class="formulario__correo">
+                <label for="correo" class="formulario__label">Correo Electrónico</label>
+                <div class="formulario__correo__input">
+                    <input type="email" class="formulario__input" name="email" id="email"
+                        placeholder="correo@gmail.com">
+                </div>
+            </div>
+            <!--grupo: telefono-->
+            <div class="formulario__telefono">
+                <label for="telefono" class="formulario__telefono__label">Telefono</label>
+                <div class="formulario__telefono__input">
+                    <input type="tel" class="formulario__input" name="telefono" id="telefono" placeholder="388 5959042">
+
+                </div>
+            </div>
+            <!--grupo: residencia- Pais-->
+            <div class="formulario__residencia">
+                <label for="residencia" class="formulario__resdencia__label">Lugar de Residencia</label>
+                <select name="lista__paices" id="residencia">
+                    <option value="Argentina">Argentina</option>
+                    <option value="España">España</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Colombia">Colombia</option>
+                </select>
+
+            </div>
+
+            <!-- agregar un div mas de calentario para la parte de abajo del formulario-->
+
+            <!--grupo: residencia-Provincias-Argentina 
+            <div class="formulario__residencia">
+                <label for="residencia" class="formulario__resdencia__label">Lugar de Residencia</label>
+                <select name="lista__paices" id="residencia">
+                    <option value="Argentina">Argentina</option>
+                    <option value="España">España</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Colombia">Colombia</option>
+                </select>
+               
+            </div> 
+            -->
+            <!--grupo: comentario-->
+            <div class="formulario__comentario">
+                <label for="text" class="formulario__comentario__label">Dejanos tu consulta: </label>
+                <div class="formulario__comentario__input">
+                    <textarea name="comentarios" rows="10" cols="40"
+                        placeholder="Escribe aqui tu comentario"></textarea>
+                </div>
+            </div>
+        </form>
+    </aside>
+
+    <footer>
+        <section class="seccion1">
+            <ul>
+                <li>VIDEOS</li>
+                <li>GALERIA</li>
+                <li>AYUDA</li>
+            </ul>
+        </section>
+        <div class="seccion3">
+            <img src="contacto/github.png" alt="GitHub" width="50px" height="50px">
+            <img src="contacto/linkedin.png" alt="Linkedin" width="50px" height="50px">
+            <img src="contacto/envelope.png" alt="Correo" width="50px" height="50px">
+        </div>
+        <aside class="seccion2">
+            <address>
+               <p> Todos los derechos @reservados <br><br>
+                Creación y Edición: Gonzalez Ariana Yazmin <br><br>
+                Argentina- Jujuy. </p>
+            </address>
+        </aside>
+
+
+    </footer>
+</body>
+
+</html>
