@@ -55,8 +55,13 @@
     list-style: none;
     border-bottom: 2px solid;
 }
+.contenedor3 ul li:hover{
+    color: crimson;
+    font-size: 40px;
+}
 
 .contenedor4 {
+    position: relative;
     width: 520px;
     margin-left: 170px;
     display: flex;
@@ -73,12 +78,13 @@
 .contacto {
     background: rgb(170, 189, 102);
     background: radial-gradient(circle, rgba(170, 189, 102, 1) 62%, rgba(188, 199, 114, 0.8365721288515406) 76%);
-    padding: 70px 30px 60px 40px;
+    padding: 70px 30px 205px 40px;
     display: flex;
     font-size: 25px;
-    margin: 3px 8px 10px 850px;
+    margin: 3px 8px 150px 850px;
     position: absolute;
-    top: 660px;
+    top: 650px;
+  
 }
 
 .contacto h2 {
@@ -88,6 +94,32 @@
     font-family: cursive;
     border-bottom: 2px solid lightgray;
 
+}
+
+.formulario .formulario__input{
+    font-size: 20px;
+}
+.formulario__residencia #residencia{
+    font-size: 16px;
+}
+
+.calendario{
+    border-top: 1px solid lightsteelblue;
+    display: flex;
+    font-size: 20px;
+    position:absolute;
+    right: 2px;
+    top: 500px;
+}
+    
+.calendario ol{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    padding: 0;
+}
+.first-day{
+    grid-column-start: 5;
 }
 
 footer {
@@ -138,3 +170,4 @@ footer {
 .seccion3 img:hover{
     opacity: 0.5;
 }
+
